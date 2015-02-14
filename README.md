@@ -1,0 +1,1 @@
+# emacs-for-clojure-config
