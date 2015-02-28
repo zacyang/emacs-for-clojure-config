@@ -2,4 +2,12 @@
 ;; Automatically written history of CIDER REPL session
 ;; Edit at your own risk
 
-nil
+("(apply neg-pos-switch 1 2)" "(map )" "(def x (
+                              (partial neg-pos-handle make-rat-stupid-v1)
+                              (partial simplify make-rat-stupid-v1)))" "(x 1 2)" "(def x (comp
+                              (partial neg-pos-handle make-rat-stupid-v1)
+                              (partial simplify make-rat-stupid-v1)))" "(comp
+   (partial neg-pos-handle make-rat-stupid-v1)
+   (partial simplify make-rat-stupid-v1))" "(partial neg-pos-handle make-rat-stupid-v1 )" "(reduce partial neg-pos-handle )" "((partial neg-pos-handle make-rat-stupid-v1) 2 4)" "(partial neg-pos-handle make-rat-stupid-v1)" "(apply make-rat-v2 (list 2 4))" "(apply + (list 1 2) )" "(apply + '(1 2) )" "(apply + '(1) 2 )" "(apply + '() 1 2 )" "(apply + 1 2 )" "(apply + 1 2 '(3 4))" "(apply 1 zero? )" "(apply zero? 1)" "(apply 1)" "(apply print 1)" "(apply + 1)" "(apply + 1 2)" "(make-rat -2 -3)" "(make-rat -2 -2)" "(-> (make-rat-stupid-v1 2 -4) simplifier neg-pos-switch)" "(-> (make-rat-stupid-v1 2 4) simplifier neg-pos-switch)" "(-> '(1 2) simplify-pair )" "(-> 1 2 simplify-pair )" "((comp + /) 1 2)" "(comp + /)" "(neg-pos-switch -2 -4)" "(simplify-pair 8 4)" "(simplify-pair 2 4)" "(simplify-pair 2 2)" "(simplify-pair 1 2)" "(fn-a 1 2)" "(def fn-a (comp simplify-pair neg-pos-switch))" "(comp simplify-pair neg-pos-switch)" "(comp simplifier-pair neg-pos-switch)" "(rest '(1 2))" "(last '(1 2))" "(-> 1 (simplifier ))" "(readable-make-rat 2 4)" "(neg-pos-handle 2 -4 list)" "(neg-pos-handle -2 4 list)" "(neg-pos-handle -2 -4 list)" "(neg-pos-handle -2 -4)" "(simplifier 4 2)" "(simplifier 2 4)" "(-> 1 2)" "(-> 1 (+ 1))" "(-> 1 #(+ 1 %))" "(-> 1 +)" "(-> 1 )" "(make-rat 11 121)" "(make-rat 2 4)" "(Math/gcd 2 4)" "(Math/gdc 2 4)" "(Math/gdc )" "(inspect 1)" "(require 'clojure.inspector)" "(inspect 1)" "(doc gdc)" "(make-rat -2 -3)" "(list (- 2))" "(neg? -2)" "(make-rat -2 -3)" "(print-rat (make-rat 1 2))" "(cons 1 2)" "(make-rat 1 2)" "(is (make-rate 1 2 ) '(1 2))" "(require '(clojure.test))" "(is (make-rate 1 2 ) '(1 2))" "(make-rat 1 2)" "(context)" "(defroutes status-routes
+             (GET \"/\" [] )
+             )" "(filter (comp neg? (fn [x] (< x -1)) )  [-1 0 1])" "(filter neg? #(= 1 %)  [-1 0 1])" "(filter (comp neg? #(= 1 %))  [-1 0 1])" "(filter neg? [-1 0 1])")
