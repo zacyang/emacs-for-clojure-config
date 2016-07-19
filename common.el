@@ -20,5 +20,6 @@
 
 ;; HOOKS
 (add-hook 'after-init-hook 'global-company-mode)
+(set-default-font "Monaco 16")
 
 

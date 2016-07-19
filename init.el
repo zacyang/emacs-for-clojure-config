@@ -24,6 +24,9 @@
   (unless (package-installed-p p)
     (package-install p)))
 
+(setenv "PATH" (concat (getenv "PATH") ":/usr/local/bin"))
+(setq exec-path (append exec-path '("/usr/local/bin")))
+
 (load "~/.emacs.d/common.el")
 
 (load "~/.emacs.d/clojure.el")
